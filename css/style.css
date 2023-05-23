@@ -1154,6 +1154,9 @@ a.theme-btn{
 .pb{
     padding-bottom: 25px;
 }
+.bg-center{
+    background-position: 50%;
+}
 
 /*service*/
 .promo-text{
@@ -1172,6 +1175,202 @@ a.theme-btn{
     background-size: cover;
     margin-bottom: 35px;
 }
+.video-bg-img1{
+    background-image: url(../images/v2.jpg);
+    background-color: #eee;
+    text-align: center;
+    height: 355px;
+    background-position: 50%;
+    background-size: cover;
+    margin-bottom: 35px;
+}
+.video-play-button{
+    height: 57px;
+    width: 57px;
+    position: absolute;
+    background: #fc5185;
+    left: 50%;
+    top: 50%;
+    line-height: 57px;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    color: #fff;
+    transition: .3s;
+}
+.single-video-item h5{
+    color: #818181;
+}
+h5{
+    font-size: 18px;
+    line-height: 27px;
+}
+/*service*/
+.dental-text h2{
+    display: inline-block;
+    margin-right: 20px;
+}
+.dental-text h2 span{
+    font-size: 20px;
+    color: black;
+
+}
+.dental-text span{
+    margin-bottom: 26px;
+    display: inline-block;
+}
+.dental-award{
+    margin-top: 40px;
+}
+.dental-award h3{
+    margin-bottom: 7px;
+}
+h3{
+    font-size: 24px;
+    line-height: 36px;
+}
+.dental-award li{
+    position: relative;
+    display: inline-block;
+    padding-left: 16px;
+    margin-right: 25px;
+    margin-top: 14px;
+}
+.dentist-profile{
+    text-align: center;
+}
+.bg-cover{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.mb-35{
+    margin-bottom: 35px;
+}
+.profile-doctor img{
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 8.135px 18.271px 40px 0 rgba ;
+    height: 362px;
+}
+.dentist-profile p{
+    color: #fff;
+}
+.dentist-social{
+    margin-top: 5px;
+}
+.dentist-social a{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: #666;
+    color: #fff;
+    font-size: 15px;
+    line-height: 24px;
+    margin: 0 5px;
+    transition: 0.5s;
+}
+.donto-img{
+    background-image: url(../images/a.jpg);
+
+}
+.donto-box img{
+    border-radius: 10px;
+    background: #fff;
+    min-height: 405px;
+    overflow: hidden;
+    box-shadow:0 20px 40px 0 rgba(0,0,0,.08);
+
+}
+.donto-written h2{
+    margin-bottom: 23px;
+}
+.donto-written p{
+    margin-bottom: 15px!important;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+/*contact*/
+.contact-box{
+    display: flex;
+    min-height: 171px;
+    background: #fff;
+    align-items: center;
+    text-align: center;
+    padding: 0 35px;
+    box-shadow: 0 6px 26px rgba(0,0,0,.06);
+}
+.contact-box .b-icon{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    background: #ffe7ea;
+    display: block;
+    border-radius: 50%;
+    color: var(--main-color-two);
+    transition: .5s;
+    margin-right: 20px;
+}
+.icon-info{
+    text-align: left;
+}
+.icon-info h4{
+    text-transform: capitalize;
+}
+h4{
+    font-size: 20px;
+    line-height: 30px;
+}
+.icon-info p{
+    margin: 0;
+    font-weight: 300;
+    line-height: 26px;
+    color: #999;
+}
+.contact-form h2{
+    font-size: 60px;
+    line-height: 1;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+form{
+    position: relative;
+}
+.contact-form form input,
+.contact-form form textarea{
+    width: 100%;
+    height: 72px;
+    background: #fff;
+    box-shadow: 0 6px 26px rgba(0,0,0,.06);
+    border: none;
+    padding-left: 30px;
+    margin-bottom: 29px;
+    color: #666;
+    text-transform: capitalize;
+
+}
+button.submit-btn{
+    height: 62px;
+    background: var(--main-color-two);
+    color: #fff;
+    text-transform: capitalize;
+    transition: .5s;
+    margin-left: 15px;
+    display: inline-block;
+    padding: 0 45px;
+    margin-top: 30px;
+    font-weight: 500;
+    width: 180px;
+    margin-bottom: 30px;
+
+}
+
+
+
+
 
 
 
@@ -1235,6 +1434,9 @@ button,select{
     line-height: 1;
 
 
+}
+b, strong{
+    font-weight: bolder;
 }
 /*button*/
 [type=button]
